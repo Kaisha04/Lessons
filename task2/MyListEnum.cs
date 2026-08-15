@@ -2,7 +2,7 @@ using System.Collections;
 
 namespace task2;
 
-class MyListEnum<T> : IEnumerator<T>
+public class MyListEnum<T> : IEnumerator<T>
 {
     private MyList<T> _list;
     private int _index;

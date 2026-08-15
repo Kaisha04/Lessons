@@ -2,7 +2,7 @@ using System.Collections;
 
 namespace task2;
 
-class MyList<T> : IEnumerable<T>
+public class MyList<T> : IEnumerable<T>
 {
     private T[] _items;
     private int _count;
